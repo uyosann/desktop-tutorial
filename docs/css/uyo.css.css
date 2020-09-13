@@ -1,0 +1,37 @@
+@charset "UTF-8"
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+h1,h2{
+    margin: 0;
+    font-size: 3vw;
+    padding: 0.5vw 0 0 1 5vw;
+}
+header{
+    margin : 0;
+    width: 100%;
+    background-color: rgb(77, 24, 175);
+height: 6vw;
+}
+#contents{
+    background-color: darkblue;
+}
+.profiel_list{
+    background-color: cyan;
+}
+#interest{
+    background-color: darkturquoise;
+}
+footer{
+    background-color: rgb(148, 15, 224);
+     color: mediumaquamarine;
+}
+.f-container{
+display: flex;
+flex-direction: row;    
+flex-wrap: wrap;
+justify-content: space-around;
+}
